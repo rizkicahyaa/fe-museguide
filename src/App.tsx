@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
+import MuseumGrid from './components/MuseumGrid'
 import './App.css'
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         
         {/* Museum Showcase */}
         <HeroSection />
+        
+        {/* Museum Grid */}
+        <MuseumGrid />
       </main>
     </div>
   )
