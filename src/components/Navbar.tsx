@@ -17,8 +17,8 @@ const Navbar = () => {
               <span className="text-amber-900 font-bold text-xl">M</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-white font-bold text-xl">MuseGuide</span>
-              <span className="text-amber-200 text-xs">Yogyakarta</span>
+              <span className="text-white font-display text-2xl">MuseGuide</span>
+              <span className="text-amber-200 text-xs font-body">Yogyakarta</span>
             </div>
           </div>
 
@@ -26,29 +26,29 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a 
               href="#home" 
-              className="text-white hover:text-amber-200 transition-colors duration-300 font-medium"
+              className="text-white hover:text-amber-200 transition-colors duration-300 font-heading text-sm"
             >
               Beranda
             </a>
             <a 
               href="#museums" 
-              className="text-white hover:text-amber-200 transition-colors duration-300 font-medium"
+              className="text-white hover:text-amber-200 transition-colors duration-300 font-heading text-sm"
             >
               Museum
             </a>
             <a 
               href="#recommendations" 
-              className="text-white hover:text-amber-200 transition-colors duration-300 font-medium"
+              className="text-white hover:text-amber-200 transition-colors duration-300 font-heading text-sm"
             >
               Rekomendasi
             </a>
             <a 
               href="#about" 
-              className="text-white hover:text-amber-200 transition-colors duration-300 font-medium"
+              className="text-white hover:text-amber-200 transition-colors duration-300 font-heading text-sm"
             >
               Tentang
             </a>
-            <button className="bg-gradient-to-r from-yellow-400 to-amber-500 text-amber-900 px-6 py-2 rounded-full font-semibold hover:from-yellow-300 hover:to-amber-400 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button className="bg-gradient-to-r from-yellow-400 to-amber-500 text-amber-900 px-6 py-2 rounded-full font-button hover:from-yellow-300 hover:to-amber-400 transition-all duration-300 shadow-lg hover:shadow-xl">
               Mulai Jelajahi
             </button>
           </div>
@@ -76,29 +76,29 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-amber-800 rounded-lg mt-2">
               <a 
                 href="#home" 
-                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-heading transition-colors duration-300"
               >
                 Beranda
               </a>
               <a 
                 href="#museums" 
-                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-heading transition-colors duration-300"
               >
                 Museum
               </a>
               <a 
                 href="#recommendations" 
-                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-heading transition-colors duration-300"
               >
                 Rekomendasi
               </a>
               <a 
                 href="#about" 
-                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                className="text-white hover:text-amber-200 block px-3 py-2 rounded-md text-base font-heading transition-colors duration-300"
               >
                 Tentang
               </a>
-              <button className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-amber-900 px-6 py-2 rounded-full font-semibold hover:from-yellow-300 hover:to-amber-400 transition-all duration-300 shadow-lg mt-4">
+              <button className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-amber-900 px-6 py-2 rounded-full font-button hover:from-yellow-300 hover:to-amber-400 transition-all duration-300 shadow-lg mt-4">
                 Mulai Jelajahi
               </button>
             </div>
