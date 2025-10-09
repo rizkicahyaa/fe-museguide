@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import MuseumGrid from './components/MuseumGrid'
+import RecommendationSection from './components/Recommendation'
 import './App.css'
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         
         {/* Museum Grid */}
         <MuseumGrid />
+        
+        {/* Recommendation Section */}
+        <RecommendationSection />
       </main>
     </div>
   )
