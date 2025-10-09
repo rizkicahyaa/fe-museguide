@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import MuseumGrid from './components/MuseumGrid'
 import RecommendationSection from './components/Recommendation'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         {/* Recommendation Section */}
         <RecommendationSection />
       </main>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }
